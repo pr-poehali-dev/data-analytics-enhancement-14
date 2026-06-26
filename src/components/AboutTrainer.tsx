@@ -6,27 +6,27 @@ export function AboutTrainer() {
           {/* Image */}
           <div className="relative h-96 md:h-full min-h-96">
             <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
-            <img src="/professional-trainer-headshot-smiling.jpg" alt="Тренер" className="w-full h-full object-cover rounded-2xl" />
+            <img src="https://cdn.poehali.dev/projects/ab395f04-1d00-4200-b964-574aeb27db3f/files/b1480d7b-20d1-482b-bcc4-0ffdf2a0c54d.jpg" alt="Мастер автосервиса" className="w-full h-full object-cover rounded-2xl" />
           </div>
 
           {/* Content */}
           <div className="flex flex-col gap-6">
             <div>
-              <p className="text-accent font-semibold text-sm uppercase tracking-wide">О наставнике</p>
+              <p className="text-accent font-semibold text-sm uppercase tracking-wide">О сервисе</p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">
-                Ваш коуч по успеху в VA
+                Мастера, которым можно доверить авто
               </h2>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Более 10 лет опыта в виртуальном ассистировании и бизнес-операциях. Я помогла сотням
-              специалистов освоить навыки, необходимые для успеха в этой динамичной сфере.
+              Более 12 лет мы ремонтируем автомобили любых марок. Наша команда — сертифицированные
+              механики, которые работают честно и берегут ваше время и бюджет.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              Моя экспертиза охватывает административный менеджмент, коммуникацию с клиентами, координацию
-              проектов и владение цифровыми инструментами. Опыт работы с компаниями Fortune 500 и стартапами
-              дает мне уникальное понимание того, что действительно ценят работодатели.
+              Современная диагностическая аппаратура, оригинальные запчасти и проверенные аналоги.
+              Перед началом работ мы всегда согласовываем стоимость — никаких скрытых доплат и
+              навязанных услуг.
             </p>
 
             <div className="space-y-4 pt-4">
@@ -35,8 +35,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Сертифицированный коуч VA</p>
-                  <p className="text-sm text-muted-foreground">Признание лидерами отрасли</p>
+                  <p className="font-semibold text-foreground">Сертифицированные мастера</p>
+                  <p className="text-sm text-muted-foreground">Опыт работы с любыми марками авто</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -44,8 +44,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">500+ выпускников</p>
-                  <p className="text-sm text-muted-foreground">95% карьерного роста</p>
+                  <p className="font-semibold text-foreground">15 000+ авто</p>
+                  <p className="text-sm text-muted-foreground">98% клиентов возвращаются снова</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -53,8 +53,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Персональный подход</p>
-                  <p className="text-sm text-muted-foreground">Адаптация под ваши цели</p>
+                  <p className="font-semibold text-foreground">Гарантия на работы</p>
+                  <p className="text-sm text-muted-foreground">Отвечаем за качество ремонта</p>
                 </div>
               </div>
             </div>
